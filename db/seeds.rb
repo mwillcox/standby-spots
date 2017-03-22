@@ -13,9 +13,9 @@ csv.each do |row|
 end
 puts "There are now #{Spot.count} rows in the transactions table"
 
-csv_text = File.read(Rails.root.join('db', 'seeds', 'popos.csv'))
-csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
-csv.each do |row|
+csv_text2 = File.read(Rails.root.join('db', 'seeds', 'popos.csv'))
+csv2 = CSV.parse(csv_text2, :headers => true, :encoding => 'ISO-8859-1')
+csv2.each do |row|
   s = Spot.new
   s.name = row['NAME']
   s.type = 'Privately Owned Public Open Space'
