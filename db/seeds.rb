@@ -1,7 +1,27 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+require 'csv'
+
+
+# csv_text = File.read(Rails.root.join('db', 'seeds', 'parklets.csv'))
+# csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   s = Spot.new
+#   s.name = row['envista_project_name_full']
+#   s.type = 'Parklet'
+#   s.address = row['envista_intermediate_location_text']
+#   s.location = row['Location']
+#   s.save
+# end
+# puts "There are now #{Spot.count} rows in the transactions table"
+
+# csv_text = File.read(Rails.root.join('db', 'seeds', 'popos.csv'))
+# csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   s = Spot.new
+#   s.name = row['NAME']
+#   s.type = 'Privately Owned Public Open Space'
+#   s.description = row['Descriptio']
+#   s.address = row['POPOS_ADDR']
+#   s.location = row['the_geom']
+#   s.save
+# end
+# puts "There are now #{Spot.count} rows in the transactions table"

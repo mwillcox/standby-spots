@@ -1,0 +1,4208 @@
+{
+"meta": {
+"view": {
+"id": "jczu-j2ku",
+"name": "Parklet Permits",
+"attribution": "San Francisco Public Works",
+"attributionLink": "http://sfpublicworks.org/",
+"averageRating": 0,
+"category": "Culture and Recreation",
+"createdAt": 1474069250,
+"description": "A list of all permitted parklets in San Francisco. A parklet is a sidewalk extension that provides more space and amenities for people using the street. Usually parklets are installed on parking lanes and use several parking spaces.",
+"displayType": "table",
+"downloadCount": 417,
+"hideFromCatalog": false,
+"hideFromDataJson": false,
+"indexUpdatedAt": 1490109330,
+"licenseId": "PDDL",
+"newBackend": false,
+"numberOfComments": 0,
+"oid": 23850758,
+"provenance": "official",
+"publicationAppendEnabled": true,
+"publicationDate": 1474070631,
+"publicationGroup": 13114921,
+"publicationStage": "published",
+"rowClass": "",
+"rowsUpdatedAt": 1490109292,
+"rowsUpdatedBy": "rcpp-nrjq",
+"tableId": 13115171,
+"totalTimesRated": 0,
+"viewCount": 132,
+"viewLastModified": 1490109278,
+"viewType": "tabular",
+"columns": [
+{
+"id": -1,
+"name": "sid",
+"dataTypeName": "meta_data",
+"fieldName": ":sid",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "id",
+"dataTypeName": "meta_data",
+"fieldName": ":id",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "position",
+"dataTypeName": "meta_data",
+"fieldName": ":position",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "created_at",
+"dataTypeName": "meta_data",
+"fieldName": ":created_at",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "created_meta",
+"dataTypeName": "meta_data",
+"fieldName": ":created_meta",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "updated_at",
+"dataTypeName": "meta_data",
+"fieldName": ":updated_at",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "updated_meta",
+"dataTypeName": "meta_data",
+"fieldName": ":updated_meta",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": -1,
+"name": "meta",
+"dataTypeName": "meta_data",
+"fieldName": ":meta",
+"position": 0,
+"renderTypeName": "meta_data",
+"format": {},
+"flags": [
+"hidden"
+]
+},
+{
+"id": 270314562,
+"name": "Permit_Number",
+"dataTypeName": "text",
+"fieldName": "permit_number",
+"position": 2,
+"renderTypeName": "text",
+"tableColumnId": 38405864,
+"width": 256,
+"cachedContents": {
+"largest": "17PKT-0048",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "16PKT-0054",
+"count": 20
+},
+{
+"item": "17PKT-0001",
+"count": 19
+},
+{
+"item": "17PKT-0002",
+"count": 18
+},
+{
+"item": "17PKT-0004",
+"count": 17
+},
+{
+"item": "17PKT-0005",
+"count": 16
+},
+{
+"item": "17PKT-0007",
+"count": 15
+},
+{
+"item": "17PKT-0006",
+"count": 14
+},
+{
+"item": "17PKT-0008",
+"count": 13
+},
+{
+"item": "17PKT-0009",
+"count": 12
+},
+{
+"item": "17PKT-0012",
+"count": 11
+},
+{
+"item": "17PKT-0013",
+"count": 10
+},
+{
+"item": "17PKT-0011",
+"count": 9
+},
+{
+"item": "17PKT-0003",
+"count": 8
+},
+{
+"item": "17PKT-0015",
+"count": 7
+},
+{
+"item": "17PKT-0014",
+"count": 6
+},
+{
+"item": "17PKT-0010",
+"count": 5
+},
+{
+"item": "17PKT-0020",
+"count": 4
+},
+{
+"item": "17PKT-0021",
+"count": 3
+},
+{
+"item": "17PKT-0018",
+"count": 2
+},
+{
+"item": "17PKT-0025",
+"count": 1
+}
+],
+"smallest": "16PKT-0054"
+},
+"format": {}
+},
+{
+"id": 270314563,
+"name": "Permit_Address",
+"dataTypeName": "text",
+"fieldName": "permit_address",
+"position": 3,
+"renderTypeName": "text",
+"tableColumnId": 38405865,
+"width": 268,
+"cachedContents": {
+"largest": "988 VALENCIA ST",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "262 DIVISADERO ST",
+"count": 20
+},
+{
+"item": "423 COLUMBUS AVE",
+"count": 19
+},
+{
+"item": "3434 BALBOA ST",
+"count": 18
+},
+{
+"item": "2001 POLK ST",
+"count": 17
+},
+{
+"item": "2410 CALIFORNIA ST",
+"count": 16
+},
+{
+"item": "436 BALBOA ST",
+"count": 15
+},
+{
+"item": "988 VALENCIA ST",
+"count": 14
+},
+{
+"item": "533 JONES ST",
+"count": 13
+},
+{
+"item": "1722 TARAVAL ST",
+"count": 12
+},
+{
+"item": "1331 09TH AVE",
+"count": 11
+},
+{
+"item": "740 VALENCIA ST",
+"count": 10
+},
+{
+"item": "3378 18TH ST",
+"count": 9
+},
+{
+"item": "1122 FOLSOM ST",
+"count": 8
+},
+{
+"item": "1268 VALENCIA ST",
+"count": 7
+},
+{
+"item": "2569 03RD ST",
+"count": 6
+},
+{
+"item": "354 11TH ST",
+"count": 5
+},
+{
+"item": "1241 VALENCIA ST",
+"count": 4
+},
+{
+"item": "360 RITCH ST",
+"count": 3
+},
+{
+"item": "3982 24TH ST",
+"count": 2
+},
+{
+"item": "2821 CALIFORNIA ST",
+"count": 1
+}
+],
+"smallest": "1122 FOLSOM ST"
+},
+"format": {}
+},
+{
+"id": 270314564,
+"name": "Street_Name",
+"dataTypeName": "text",
+"fieldName": "street_name",
+"position": 4,
+"renderTypeName": "text",
+"tableColumnId": 38405866,
+"width": 232,
+"cachedContents": {
+"largest": "YOSEMITE AVE",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "DIVISADERO ST",
+"count": 20
+},
+{
+"item": "COLUMBUS AVE",
+"count": 19
+},
+{
+"item": "BALBOA ST",
+"count": 18
+},
+{
+"item": "PACIFIC AVE",
+"count": 17
+},
+{
+"item": "CALIFORNIA ST",
+"count": 16
+},
+{
+"item": "VALENCIA ST",
+"count": 15
+},
+{
+"item": "JONES ST",
+"count": 14
+},
+{
+"item": "TARAVAL ST",
+"count": 13
+},
+{
+"item": "09TH AVE",
+"count": 12
+},
+{
+"item": "18TH ST",
+"count": 11
+},
+{
+"item": "FOLSOM ST",
+"count": 10
+},
+{
+"item": "03RD ST",
+"count": 9
+},
+{
+"item": "11TH ST",
+"count": 8
+},
+{
+"item": "RITCH ST",
+"count": 7
+},
+{
+"item": "24TH ST",
+"count": 6
+},
+{
+"item": "HAIGHT ST",
+"count": 5
+},
+{
+"item": "HAYES ST",
+"count": 4
+},
+{
+"item": "22ND ST",
+"count": 3
+},
+{
+"item": "16TH ST",
+"count": 2
+},
+{
+"item": "GUERRERO ST",
+"count": 1
+}
+],
+"smallest": "03RD ST"
+},
+"format": {}
+},
+{
+"id": 270314565,
+"name": "Cross_Street_1",
+"dataTypeName": "text",
+"fieldName": "cross_street_1",
+"position": 5,
+"renderTypeName": "text",
+"tableColumnId": 38405867,
+"width": 268,
+"cachedContents": {
+"largest": "VALLEJO ST",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "HAIGHT ST",
+"count": 20
+},
+{
+"item": "VALLEJO ST",
+"count": 19
+},
+{
+"item": "35TH AVE",
+"count": 18
+},
+{
+"item": "POLK ST",
+"count": 17
+},
+{
+"item": "FILLMORE ST",
+"count": 16
+},
+{
+"item": "05TH AVE",
+"count": 15
+},
+{
+"item": "LIBERTY ST",
+"count": 14
+},
+{
+"item": "OFARRELL ST",
+"count": 13
+},
+{
+"item": "27TH AVE",
+"count": 12
+},
+{
+"item": "IRVING ST",
+"count": 11
+},
+{
+"item": "18TH ST",
+"count": 10
+},
+{
+"item": "CAPP ST",
+"count": 9
+},
+{
+"item": "LANGTON ST",
+"count": 8
+},
+{
+"item": "23RD ST",
+"count": 7
+},
+{
+"item": "22ND ST",
+"count": 6
+},
+{
+"item": "FOLSOM ST",
+"count": 5
+},
+{
+"item": "BRANNAN ST",
+"count": 4
+},
+{
+"item": "SANCHEZ ST",
+"count": 3
+},
+{
+"item": "DIVISADERO ST",
+"count": 2
+},
+{
+"item": "ASHBURY ST",
+"count": 1
+}
+],
+"smallest": "03RD AVE"
+},
+"format": {}
+},
+{
+"id": 270314566,
+"name": "Cross_Street_2",
+"dataTypeName": "text",
+"fieldName": "cross_street_2",
+"position": 6,
+"renderTypeName": "text",
+"tableColumnId": 38405868,
+"width": 268,
+"cachedContents": {
+"largest": "WASHINGTON ST",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "PAGE ST",
+"count": 20
+},
+{
+"item": "GREEN ST \\ STOCKTON ST",
+"count": 19
+},
+{
+"item": "36TH AVE",
+"count": 18
+},
+{
+"item": "VAN NESS AVE",
+"count": 17
+},
+{
+"item": "STEINER ST",
+"count": 16
+},
+{
+"item": "06TH AVE",
+"count": 15
+},
+{
+"item": "21ST ST",
+"count": 14
+},
+{
+"item": "GEARY ST",
+"count": 13
+},
+{
+"item": "28TH AVE",
+"count": 12
+},
+{
+"item": "JUDAH ST",
+"count": 11
+},
+{
+"item": "19TH ST",
+"count": 10
+},
+{
+"item": "MISSION ST",
+"count": 9
+},
+{
+"item": "HALLAM ST",
+"count": 8
+},
+{
+"item": "24TH ST",
+"count": 7
+},
+{
+"item": "23RD ST",
+"count": 6
+},
+{
+"item": "HARRISON ST",
+"count": 5
+},
+{
+"item": "TOWNSEND ST",
+"count": 4
+},
+{
+"item": "NOE ST",
+"count": 3
+},
+{
+"item": "BRODERICK ST",
+"count": 2
+},
+{
+"item": "CLAYTON ST",
+"count": 1
+}
+],
+"smallest": "04TH AVE"
+},
+"format": {}
+},
+{
+"id": 270314567,
+"name": "Permit_ZipCode",
+"dataTypeName": "text",
+"fieldName": "permit_zipcode",
+"position": 7,
+"renderTypeName": "text",
+"tableColumnId": 38405869,
+"width": 268,
+"cachedContents": {
+"largest": "94133",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "94117",
+"count": 20
+},
+{
+"item": "94133",
+"count": 19
+},
+{
+"item": "94121",
+"count": 18
+},
+{
+"item": "94109",
+"count": 17
+},
+{
+"item": "94115",
+"count": 16
+},
+{
+"item": "94118",
+"count": 15
+},
+{
+"item": "94110",
+"count": 14
+},
+{
+"item": "94102",
+"count": 13
+},
+{
+"item": "94116",
+"count": 12
+},
+{
+"item": "94122",
+"count": 11
+},
+{
+"item": "94103",
+"count": 10
+},
+{
+"item": "94107",
+"count": 9
+},
+{
+"item": "94114",
+"count": 8
+},
+{
+"item": "94124",
+"count": 7
+}
+],
+"smallest": "94102"
+},
+"format": {}
+},
+{
+"id": 270314568,
+"name": "Applicant",
+"dataTypeName": "text",
+"fieldName": "applicant",
+"position": 8,
+"renderTypeName": "text",
+"tableColumnId": 38405870,
+"width": 208,
+"cachedContents": {
+"largest": "VinnoRosso",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Repose Coffee Bar and Gallery",
+"count": 20
+},
+{
+"item": "CAFFE' GRECO",
+"count": 19
+},
+{
+"item": "SIMPLE PLEASURES CAFÉ",
+"count": 18
+},
+{
+"item": "Cheese Plus",
+"count": 17
+},
+{
+"item": "Pizzeria Due, LLC dba: Delfina",
+"count": 16
+},
+{
+"item": "CINDERELLA BAKERY INC.",
+"count": 15
+},
+{
+"item": "Blue Fig Cafe",
+"count": 14
+},
+{
+"item": "Usama Shahbaz and Ali Amin dba Karachi Chicken",
+"count": 13
+},
+{
+"item": "Rolling Out, Inc.",
+"count": 12
+},
+{
+"item": "ARIZMENDI BAKERY - 9TH AVE",
+"count": 11
+},
+{
+"item": "Dandelion Chocolate",
+"count": 10
+},
+{
+"item": "Ken Ken Ramen",
+"count": 9
+},
+{
+"item": "BRAINWASH, INC.",
+"count": 8
+},
+{
+"item": "ARIZMENDI BAKERY",
+"count": 7
+},
+{
+"item": "Museum of Craft and Design",
+"count": 6
+},
+{
+"item": "Butter",
+"count": 5
+},
+{
+"item": "Exploratorium",
+"count": 4
+},
+{
+"item": "Little Skillet",
+"count": 3
+},
+{
+"item": "Noe Valley Association",
+"count": 2
+},
+{
+"item": "b Patisserie",
+"count": 1
+}
+],
+"smallest": "ARIZMENDI BAKERY"
+},
+"format": {}
+},
+{
+"id": 270314569,
+"name": "Permit_Purpose",
+"dataTypeName": "text",
+"fieldName": "permit_purpose",
+"position": 9,
+"renderTypeName": "text",
+"tableColumnId": 38405871,
+"width": 268,
+"cachedContents": {
+"largest": "Parklet",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Parklet",
+"count": 20
+}
+],
+"smallest": "Parklet"
+},
+"format": {}
+},
+{
+"id": 270314570,
+"name": "Permit_Approval_Date",
+"dataTypeName": "text",
+"fieldName": "permit_approval_date",
+"position": 10,
+"renderTypeName": "text",
+"tableColumnId": 38405872,
+"width": 340,
+"cachedContents": {
+"largest": "6/27/2016",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "6/27/2016",
+"count": 20
+},
+{
+"item": "1/17/2017",
+"count": 19
+},
+{
+"item": "1/19/2017",
+"count": 18
+},
+{
+"item": "1/20/2017",
+"count": 17
+},
+{
+"item": "1/23/2017",
+"count": 16
+},
+{
+"item": "1/25/2017",
+"count": 15
+},
+{
+"item": "1/27/2017",
+"count": 14
+},
+{
+"item": "1/30/2017",
+"count": 13
+},
+{
+"item": "1/31/2017",
+"count": 12
+},
+{
+"item": "2/1/2017",
+"count": 11
+},
+{
+"item": "2/3/2017",
+"count": 10
+},
+{
+"item": "2/7/2017",
+"count": 9
+},
+{
+"item": "2/8/2017",
+"count": 8
+},
+{
+"item": "2/9/2017",
+"count": 7
+},
+{
+"item": "2/10/2017",
+"count": 6
+},
+{
+"item": "2/14/2017",
+"count": 5
+},
+{
+"item": "2/16/2017",
+"count": 4
+},
+{
+"item": "2/17/2017",
+"count": 3
+},
+{
+"item": "2/24/2017",
+"count": 2
+},
+{
+"item": "2/28/2017",
+"count": 1
+}
+],
+"smallest": "1/17/2017"
+},
+"format": {}
+},
+{
+"id": 270314571,
+"name": "Permit_End_Date",
+"dataTypeName": "text",
+"fieldName": "permit_end_date",
+"position": 11,
+"renderTypeName": "text",
+"tableColumnId": 38405873,
+"width": 280,
+"cachedContents": {
+"largest": "8/15/2017",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "8/15/2017",
+"count": 20
+},
+{
+"item": "2/15/2018",
+"count": 19
+},
+{
+"item": "2/16/2018",
+"count": 18
+}
+],
+"smallest": "2/15/2018"
+},
+"format": {}
+},
+{
+"id": 270314572,
+"name": "Permit_Status",
+"dataTypeName": "text",
+"fieldName": "permit_status",
+"position": 12,
+"renderTypeName": "text",
+"tableColumnId": 38405874,
+"width": 256,
+"cachedContents": {
+"largest": "APPROVED",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "APPROVED",
+"count": 20
+}
+],
+"smallest": "APPROVED"
+},
+"format": {}
+},
+{
+"id": 270314573,
+"name": "X",
+"dataTypeName": "number",
+"fieldName": "x",
+"position": 13,
+"renderTypeName": "number",
+"tableColumnId": 38405875,
+"width": 112,
+"cachedContents": {
+"largest": "6015917.56082",
+"non_null": 38,
+"average": "6003848.533735526",
+"null": 0,
+"top": [
+{
+"item": "6001873.01636",
+"count": 20
+},
+{
+"item": "6010289.04546",
+"count": 19
+},
+{
+"item": "5984886.07308",
+"count": 18
+},
+{
+"item": "6006425.0696",
+"count": 17
+},
+{
+"item": "6002732.53958",
+"count": 16
+},
+{
+"item": "5994172.80673",
+"count": 15
+},
+{
+"item": "6006263.20225",
+"count": 14
+},
+{
+"item": "6008819.27478",
+"count": 13
+},
+{
+"item": "5987845.00645",
+"count": 12
+},
+{
+"item": "5993275.5631",
+"count": 11
+},
+{
+"item": "6006197.25247",
+"count": 10
+},
+{
+"item": "6007020.90305",
+"count": 9
+},
+{
+"item": "6010088.26699",
+"count": 8
+},
+{
+"item": "6006396.56309",
+"count": 7
+},
+{
+"item": "6015917.56082",
+"count": 6
+},
+{
+"item": "6008699.29405",
+"count": 5
+},
+{
+"item": "6006457.61481",
+"count": 4
+},
+{
+"item": "6014329.26023",
+"count": 3
+},
+{
+"item": "6003292.46202",
+"count": 2
+},
+{
+"item": "6000887.08497",
+"count": 1
+}
+],
+"smallest": "5982047.18955",
+"sum": "228146244.28195"
+},
+"format": {}
+},
+{
+"id": 270314574,
+"name": "Y",
+"dataTypeName": "number",
+"fieldName": "y",
+"position": 14,
+"renderTypeName": "number",
+"tableColumnId": 38405876,
+"width": 112,
+"cachedContents": {
+"largest": "2118999.33253",
+"non_null": 38,
+"average": "2107642.440883421",
+"null": 0,
+"top": [
+{
+"item": "2109185.67204",
+"count": 20
+},
+{
+"item": "2118999.33253",
+"count": 19
+},
+{
+"item": "2111149.1633",
+"count": 18
+},
+{
+"item": "2117735.31996",
+"count": 17
+},
+{
+"item": "2115520.04684",
+"count": 16
+},
+{
+"item": "2111474.38044",
+"count": 15
+},
+{
+"item": "2103863.99585",
+"count": 14
+},
+{
+"item": "2114416.55889",
+"count": 13
+},
+{
+"item": "2099020.24484",
+"count": 12
+},
+{
+"item": "2106407.37117",
+"count": 11
+},
+{
+"item": "2105252.74224",
+"count": 10
+},
+{
+"item": "2105598.37048",
+"count": 9
+},
+{
+"item": "2110763.57439",
+"count": 8
+},
+{
+"item": "2102202.31822",
+"count": 7
+},
+{
+"item": "2103540.94455",
+"count": 6
+},
+{
+"item": "2108876.21892",
+"count": 5
+},
+{
+"item": "2102334.1198",
+"count": 4
+},
+{
+"item": "2111607.80218",
+"count": 3
+},
+{
+"item": "2101863.37402",
+"count": 2
+},
+{
+"item": "2115161.26519",
+"count": 1
+}
+],
+"smallest": "2093217.1354",
+"sum": "80090412.75357"
+},
+"format": {}
+},
+{
+"id": 270314575,
+"name": "Latitude",
+"dataTypeName": "number",
+"fieldName": "latitude",
+"position": 15,
+"renderTypeName": "number",
+"tableColumnId": 38405877,
+"width": 196,
+"cachedContents": {
+"largest": "37.7989481680788",
+"non_null": 38,
+"average": "37.76739843102471",
+"null": 0,
+"top": [
+{
+"item": "37.771527449986",
+"count": 20
+},
+{
+"item": "37.7989481680788",
+"count": 19
+},
+{
+"item": "37.7759385201735",
+"count": 18
+},
+{
+"item": "37.7952603590802",
+"count": 17
+},
+{
+"item": "37.7889688677795",
+"count": 16
+},
+{
+"item": "37.7773709746424",
+"count": 15
+},
+{
+"item": "37.7571639251618",
+"count": 14
+},
+{
+"item": "37.786282572627",
+"count": 13
+},
+{
+"item": "37.7428086566312",
+"count": 12
+},
+{
+"item": "37.7634065728777",
+"count": 11
+},
+{
+"item": "37.7609733804633",
+"count": 10
+},
+{
+"item": "37.7619688058469",
+"count": 9
+},
+{
+"item": "37.7763235020516",
+"count": 8
+},
+{
+"item": "37.7526088597395",
+"count": 7
+},
+{
+"item": "37.7568164762378",
+"count": 6
+},
+{
+"item": "37.7710633795325",
+"count": 5
+},
+{
+"item": "37.7529741974744",
+"count": 4
+},
+{
+"item": "37.778878168157",
+"count": 3
+},
+{
+"item": "37.7515027542727",
+"count": 2
+},
+{
+"item": "37.7878788215242",
+"count": 1
+}
+],
+"smallest": "37.7283593801849",
+"sum": "1435.1611403789388"
+},
+"format": {}
+},
+{
+"id": 270314576,
+"name": "Longitude",
+"dataTypeName": "number",
+"fieldName": "longitude",
+"position": 16,
+"renderTypeName": "number",
+"tableColumnId": 38405878,
+"width": 208,
+"cachedContents": {
+"largest": "-122.387931202139",
+"non_null": 38,
+"average": "-122.4299630088653",
+"null": 0,
+"top": [
+{
+"item": "-122.436906435278",
+"count": 20
+},
+{
+"item": "-122.408487162809",
+"count": 19
+},
+{
+"item": "-122.49580918509",
+"count": 18
+},
+{
+"item": "-122.421767991747",
+"count": 17
+},
+{
+"item": "-122.434386260392",
+"count": 16
+},
+{
+"item": "-122.463707816523",
+"count": 15
+},
+{
+"item": "-122.421342540038",
+"count": 14
+},
+{
+"item": "-122.413248829754",
+"count": 13
+},
+{
+"item": "-122.484683675488",
+"count": 12
+},
+{
+"item": "-122.466443284387",
+"count": 11
+},
+{
+"item": "-122.421669254993",
+"count": 10
+},
+{
+"item": "-122.418845114319",
+"count": 9
+},
+{
+"item": "-122.408600637216",
+"count": 8
+},
+{
+"item": "-122.420763362027",
+"count": 7
+},
+{
+"item": "-122.387931202139",
+"count": 6
+},
+{
+"item": "-122.413272000154",
+"count": 5
+},
+{
+"item": "-122.42056158933",
+"count": 4
+},
+{
+"item": "-122.393988863559",
+"count": 3
+},
+{
+"item": "-122.431473682572",
+"count": 2
+},
+{
+"item": "-122.440745524815",
+"count": 1
+}
+],
+"smallest": "-122.505214830494",
+"sum": "-4652.338594336883"
+},
+"format": {}
+},
+{
+"id": 270314577,
+"name": "cnn",
+"dataTypeName": "number",
+"fieldName": "cnn",
+"position": 17,
+"renderTypeName": "number",
+"tableColumnId": 38405879,
+"width": 136,
+"cachedContents": {
+"largest": "13784000",
+"non_null": 38,
+"average": "6613802.815789474",
+"null": 0,
+"top": [
+{
+"item": "4799201",
+"count": 20
+},
+{
+"item": "4294000",
+"count": 19
+},
+{
+"item": "2680000",
+"count": 18
+},
+{
+"item": "10147000",
+"count": 17
+},
+{
+"item": "3558000",
+"count": 16
+},
+{
+"item": "2649000",
+"count": 15
+},
+{
+"item": "13068000",
+"count": 14
+},
+{
+"item": "7570000",
+"count": 13
+},
+{
+"item": "12403000",
+"count": 12
+},
+{
+"item": "432000",
+"count": 11
+},
+{
+"item": "13064000",
+"count": 10
+},
+{
+"item": "877000",
+"count": 9
+},
+{
+"item": "5674000",
+"count": 8
+},
+{
+"item": "13072000",
+"count": 7
+},
+{
+"item": "191101",
+"count": 6
+},
+{
+"item": "515000",
+"count": 5
+},
+{
+"item": "11040000",
+"count": 4
+},
+{
+"item": "1361000",
+"count": 3
+},
+{
+"item": "3562000",
+"count": 2
+},
+{
+"item": "6619000",
+"count": 1
+}
+],
+"smallest": "191101",
+"sum": "251324507"
+},
+"format": {}
+},
+{
+"id": 270314578,
+"name": "envista_project_id",
+"dataTypeName": "text",
+"fieldName": "envista_project_id",
+"position": 18,
+"renderTypeName": "text",
+"tableColumnId": 38405880,
+"width": 316,
+"cachedContents": {
+"largest": "17PKT-0048",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "16PKT-0054",
+"count": 20
+},
+{
+"item": "17PKT-0001",
+"count": 19
+},
+{
+"item": "17PKT-0002",
+"count": 18
+},
+{
+"item": "17PKT-0004",
+"count": 17
+},
+{
+"item": "17PKT-0005",
+"count": 16
+},
+{
+"item": "17PKT-0007",
+"count": 15
+},
+{
+"item": "17PKT-0006",
+"count": 14
+},
+{
+"item": "17PKT-0008",
+"count": 13
+},
+{
+"item": "17PKT-0009",
+"count": 12
+},
+{
+"item": "17PKT-0012",
+"count": 11
+},
+{
+"item": "17PKT-0013",
+"count": 10
+},
+{
+"item": "17PKT-0011",
+"count": 9
+},
+{
+"item": "17PKT-0003",
+"count": 8
+},
+{
+"item": "17PKT-0015",
+"count": 7
+},
+{
+"item": "17PKT-0014",
+"count": 6
+},
+{
+"item": "17PKT-0010",
+"count": 5
+},
+{
+"item": "17PKT-0020",
+"count": 4
+},
+{
+"item": "17PKT-0021",
+"count": 3
+},
+{
+"item": "17PKT-0018",
+"count": 2
+},
+{
+"item": "17PKT-0025",
+"count": 1
+}
+],
+"smallest": "16PKT-0054"
+},
+"format": {}
+},
+{
+"id": 270314579,
+"name": "envista_project_name_full",
+"dataTypeName": "text",
+"fieldName": "envista_project_name_full",
+"position": 19,
+"renderTypeName": "text",
+"tableColumnId": 38405881,
+"width": 400,
+"cachedContents": {
+"largest": "Parklet at VinnoRosso",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Parklet at Repose Coffee Bar and Gallery",
+"count": 20
+},
+{
+"item": "Parklet at CAFFE' GRECO",
+"count": 19
+},
+{
+"item": "Parklet at SIMPLE PLEASURES CAFÉ",
+"count": 18
+},
+{
+"item": "Parklet at Cheese Plus",
+"count": 17
+},
+{
+"item": "Parklet at Pizzeria Due, LLC dba: Delfina",
+"count": 16
+},
+{
+"item": "Parklet at CINDERELLA BAKERY INC.",
+"count": 15
+},
+{
+"item": "Parklet at Blue Fig Cafe",
+"count": 14
+},
+{
+"item": "Parklet at Usama Shahbaz and Ali Amin dba Karachi Chicken",
+"count": 13
+},
+{
+"item": "Parklet at Rolling Out, Inc.",
+"count": 12
+},
+{
+"item": "Parklet at ARIZMENDI BAKERY - 9TH AVE",
+"count": 11
+},
+{
+"item": "Parklet at Dandelion Chocolate",
+"count": 10
+},
+{
+"item": "Parklet at Ken Ken Ramen",
+"count": 9
+},
+{
+"item": "Parklet at BRAINWASH, INC.",
+"count": 8
+},
+{
+"item": "Parklet at ARIZMENDI BAKERY",
+"count": 7
+},
+{
+"item": "Parklet at Museum of Craft and Design",
+"count": 6
+},
+{
+"item": "Parklet at Butter",
+"count": 5
+},
+{
+"item": "Parklet at Exploratorium",
+"count": 4
+},
+{
+"item": "Parklet at Little Skillet",
+"count": 3
+},
+{
+"item": "Parklet at Noe Valley Association",
+"count": 2
+},
+{
+"item": "Parklet at b Patisserie",
+"count": 1
+}
+],
+"smallest": "Parklet at ARIZMENDI BAKERY"
+},
+"format": {}
+},
+{
+"id": 270314580,
+"name": "envista_facility_type",
+"dataTypeName": "text",
+"fieldName": "envista_facility_type",
+"position": 20,
+"renderTypeName": "text",
+"tableColumnId": 38405882,
+"width": 352,
+"cachedContents": {
+"largest": "Roadway",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Roadway",
+"count": 20
+}
+],
+"smallest": "Roadway"
+},
+"format": {}
+},
+{
+"id": 270314581,
+"name": "envista_start_date",
+"dataTypeName": "text",
+"fieldName": "envista_start_date",
+"position": 21,
+"renderTypeName": "text",
+"tableColumnId": 38405883,
+"width": 316,
+"cachedContents": {
+"largest": "6/27/2016",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "6/27/2016",
+"count": 20
+},
+{
+"item": "1/17/2017",
+"count": 19
+},
+{
+"item": "1/19/2017",
+"count": 18
+},
+{
+"item": "1/20/2017",
+"count": 17
+},
+{
+"item": "1/23/2017",
+"count": 16
+},
+{
+"item": "1/25/2017",
+"count": 15
+},
+{
+"item": "1/27/2017",
+"count": 14
+},
+{
+"item": "1/30/2017",
+"count": 13
+},
+{
+"item": "1/31/2017",
+"count": 12
+},
+{
+"item": "2/1/2017",
+"count": 11
+},
+{
+"item": "2/3/2017",
+"count": 10
+},
+{
+"item": "2/7/2017",
+"count": 9
+},
+{
+"item": "2/8/2017",
+"count": 8
+},
+{
+"item": "2/9/2017",
+"count": 7
+},
+{
+"item": "2/10/2017",
+"count": 6
+},
+{
+"item": "2/14/2017",
+"count": 5
+},
+{
+"item": "2/16/2017",
+"count": 4
+},
+{
+"item": "2/17/2017",
+"count": 3
+},
+{
+"item": "2/24/2017",
+"count": 2
+},
+{
+"item": "2/28/2017",
+"count": 1
+}
+],
+"smallest": "1/17/2017"
+},
+"format": {}
+},
+{
+"id": 270314582,
+"name": "envista_end_date",
+"dataTypeName": "text",
+"fieldName": "envista_end_date",
+"position": 22,
+"renderTypeName": "text",
+"tableColumnId": 38405884,
+"width": 292,
+"cachedContents": {
+"largest": "8/15/2017",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "8/15/2017",
+"count": 20
+},
+{
+"item": "2/15/2018",
+"count": 19
+},
+{
+"item": "2/16/2018",
+"count": 18
+}
+],
+"smallest": "2/15/2018"
+},
+"format": {}
+},
+{
+"id": 270314583,
+"name": "envista_description",
+"dataTypeName": "text",
+"fieldName": "envista_description",
+"position": 23,
+"renderTypeName": "text",
+"tableColumnId": 38405885,
+"width": 328,
+"cachedContents": {
+"largest": "988 VALENCIA ST",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "262 DIVISADERO ST",
+"count": 20
+},
+{
+"item": "423 COLUMBUS AVE",
+"count": 19
+},
+{
+"item": "3434 BALBOA ST",
+"count": 18
+},
+{
+"item": "2001 POLK ST",
+"count": 17
+},
+{
+"item": "2410 CALIFORNIA ST",
+"count": 16
+},
+{
+"item": "436 BALBOA ST",
+"count": 15
+},
+{
+"item": "988 VALENCIA ST",
+"count": 14
+},
+{
+"item": "533 JONES ST",
+"count": 13
+},
+{
+"item": "1722 TARAVAL ST",
+"count": 12
+},
+{
+"item": "1331 09TH AVE",
+"count": 11
+},
+{
+"item": "740 VALENCIA ST",
+"count": 10
+},
+{
+"item": "3378 18TH ST",
+"count": 9
+},
+{
+"item": "1122 FOLSOM ST",
+"count": 8
+},
+{
+"item": "1268 VALENCIA ST",
+"count": 7
+},
+{
+"item": "2569 03RD ST",
+"count": 6
+},
+{
+"item": "354 11TH ST",
+"count": 5
+},
+{
+"item": "1241 VALENCIA ST",
+"count": 4
+},
+{
+"item": "360 RITCH ST",
+"count": 3
+},
+{
+"item": "3982 24TH ST",
+"count": 2
+},
+{
+"item": "2821 CALIFORNIA ST",
+"count": 1
+}
+],
+"smallest": "1122 FOLSOM ST"
+},
+"format": {}
+},
+{
+"id": 270314584,
+"name": "envista_moratoriums_opportunities",
+"dataTypeName": "text",
+"fieldName": "envista_moratoriums_opportunities",
+"position": 24,
+"renderTypeName": "text",
+"tableColumnId": 38405886,
+"width": 496,
+"cachedContents": {
+"largest": "No Excavation",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "No Excavation",
+"count": 20
+}
+],
+"smallest": "No Excavation"
+},
+"format": {}
+},
+{
+"id": 270314585,
+"name": "envista_facility_indicator",
+"dataTypeName": "text",
+"fieldName": "envista_facility_indicator",
+"position": 25,
+"renderTypeName": "text",
+"tableColumnId": 38405887,
+"width": 412,
+"cachedContents": {
+"largest": "Parking",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Parking",
+"count": 20
+}
+],
+"smallest": "Parking"
+},
+"format": {}
+},
+{
+"id": 270314586,
+"name": "envista_facility_subindicator",
+"dataTypeName": "text",
+"fieldName": "envista_facility_subindicator",
+"position": 26,
+"renderTypeName": "text",
+"tableColumnId": 38405888,
+"width": 448,
+"cachedContents": {
+"largest": "Sidewalks",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Sidewalks",
+"count": 20
+}
+],
+"smallest": "Sidewalks"
+},
+"format": {}
+},
+{
+"id": 270314587,
+"name": "envista_project_type",
+"dataTypeName": "text",
+"fieldName": "envista_project_type",
+"position": 27,
+"renderTypeName": "text",
+"tableColumnId": 38405889,
+"width": 340,
+"cachedContents": {
+"largest": "Maintenance",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Maintenance",
+"count": 20
+}
+],
+"smallest": "Maintenance"
+},
+"format": {}
+},
+{
+"id": 270314588,
+"name": "envista_location_type",
+"dataTypeName": "text",
+"fieldName": "envista_location_type",
+"position": 28,
+"renderTypeName": "text",
+"tableColumnId": 38405890,
+"width": 352,
+"cachedContents": {
+"largest": "Point",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "Point",
+"count": 20
+}
+],
+"smallest": "Point"
+},
+"format": {}
+},
+{
+"id": 270314589,
+"name": "envista_intermediate_location_text",
+"dataTypeName": "text",
+"fieldName": "envista_intermediate_location_text",
+"position": 29,
+"renderTypeName": "text",
+"tableColumnId": 38405891,
+"width": 508,
+"cachedContents": {
+"largest": "988 VALENCIA ST, San Francisco, CA 94110",
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": "262 DIVISADERO ST, San Francisco, CA 94117",
+"count": 20
+},
+{
+"item": "423 COLUMBUS AVE, San Francisco, CA 94133",
+"count": 19
+},
+{
+"item": "3434 BALBOA ST, San Francisco, CA 94121",
+"count": 18
+},
+{
+"item": "2001 POLK ST, San Francisco, CA 94109",
+"count": 17
+},
+{
+"item": "2410 CALIFORNIA ST, San Francisco, CA 94115",
+"count": 16
+},
+{
+"item": "436 BALBOA ST, San Francisco, CA 94118",
+"count": 15
+},
+{
+"item": "988 VALENCIA ST, San Francisco, CA 94110",
+"count": 14
+},
+{
+"item": "533 JONES ST, San Francisco, CA 94102",
+"count": 13
+},
+{
+"item": "1722 TARAVAL ST, San Francisco, CA 94116",
+"count": 12
+},
+{
+"item": "1331 09TH AVE, San Francisco, CA 94122",
+"count": 11
+},
+{
+"item": "740 VALENCIA ST, San Francisco, CA 94110",
+"count": 10
+},
+{
+"item": "3378 18TH ST, San Francisco, CA 94110",
+"count": 9
+},
+{
+"item": "1122 FOLSOM ST, San Francisco, CA 94103",
+"count": 8
+},
+{
+"item": "1268 VALENCIA ST, San Francisco, CA 94110",
+"count": 7
+},
+{
+"item": "2569 03RD ST, San Francisco, CA 94107",
+"count": 6
+},
+{
+"item": "354 11TH ST, San Francisco, CA 94103",
+"count": 5
+},
+{
+"item": "1241 VALENCIA ST, San Francisco, CA 94110",
+"count": 4
+},
+{
+"item": "360 RITCH ST, San Francisco, CA 94107",
+"count": 3
+},
+{
+"item": "3982 24TH ST, San Francisco, CA 94114",
+"count": 2
+},
+{
+"item": "2821 CALIFORNIA ST, San Francisco, CA 94115",
+"count": 1
+}
+],
+"smallest": "1122 FOLSOM ST, San Francisco, CA 94103"
+},
+"format": {}
+},
+{
+"id": 270314590,
+"name": "Location",
+"dataTypeName": "location",
+"fieldName": "location",
+"position": 30,
+"renderTypeName": "location",
+"tableColumnId": 38405892,
+"width": 196,
+"cachedContents": {
+"largest": {
+"latitude": "37.771527449986",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.436906435278"
+},
+"non_null": 38,
+"null": 0,
+"top": [
+{
+"item": {
+"latitude": "37.771527449986",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.436906435278"
+},
+"count": 20
+},
+{
+"item": {
+"latitude": "37.7989481680788",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.408487162809"
+},
+"count": 19
+},
+{
+"item": {
+"latitude": "37.7759385201735",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.49580918509"
+},
+"count": 18
+},
+{
+"item": {
+"latitude": "37.7952603590802",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.421767991747"
+},
+"count": 17
+},
+{
+"item": {
+"latitude": "37.7889688677795",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.434386260392"
+},
+"count": 16
+},
+{
+"item": {
+"latitude": "37.7773709746424",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.463707816523"
+},
+"count": 15
+},
+{
+"item": {
+"latitude": "37.7571639251618",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.421342540038"
+},
+"count": 14
+},
+{
+"item": {
+"latitude": "37.786282572627",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.413248829754"
+},
+"count": 13
+},
+{
+"item": {
+"latitude": "37.7428086566312",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.484683675488"
+},
+"count": 12
+},
+{
+"item": {
+"latitude": "37.7634065728777",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.466443284387"
+},
+"count": 11
+},
+{
+"item": {
+"latitude": "37.7609733804633",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.421669254993"
+},
+"count": 10
+},
+{
+"item": {
+"latitude": "37.7619688058469",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.418845114319"
+},
+"count": 9
+},
+{
+"item": {
+"latitude": "37.7763235020516",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.408600637216"
+},
+"count": 8
+},
+{
+"item": {
+"latitude": "37.7526088597395",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.420763362027"
+},
+"count": 7
+},
+{
+"item": {
+"latitude": "37.7568164762378",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.387931202139"
+},
+"count": 6
+},
+{
+"item": {
+"latitude": "37.7710633795325",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.413272000154"
+},
+"count": 5
+},
+{
+"item": {
+"latitude": "37.7529741974744",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.42056158933"
+},
+"count": 4
+},
+{
+"item": {
+"latitude": "37.778878168157",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.393988863559"
+},
+"count": 3
+},
+{
+"item": {
+"latitude": "37.7515027542727",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.431473682572"
+},
+"count": 2
+},
+{
+"item": {
+"latitude": "37.7878788215242",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.440745524815"
+},
+"count": 1
+}
+],
+"smallest": {
+"latitude": "37.771527449986",
+"human_address": "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"longitude": "-122.436906435278"
+}
+},
+"format": {},
+"subColumnTypes": [
+"human_address",
+"latitude",
+"longitude",
+"machine_address",
+"needs_recoding"
+]
+}
+],
+"grants": [
+{
+"inherited": false,
+"type": "viewer",
+"flags": [
+"public"
+]
+}
+],
+"license": {
+"name": "Open Data Commons Public Domain Dedication and License",
+"termsLink": "http://opendatacommons.org/licenses/pddl/1.0/"
+},
+"metadata": {
+"rdfClass": "",
+"rdfSubject": "0",
+"attachments": [
+{
+"filename": "DPW_DataDictionary_Parklet-Permits.pdf",
+"assetId": "4bedf2bd-a55c-4a39-bbfc-04a5df36c4c1",
+"blobId": "",
+"name": "DPW_DataDictionary_Parklet-Permits.pdf"
+}
+],
+"custom_fields": {
+"Geospatial API Pre-release": {
+"Enabled": "true"
+},
+"Department Metrics": {
+"Publishing Department": "Public Works"
+},
+"Detailed Descriptive": {
+"Geographic unit": "Street address"
+},
+"Publishing Details": {
+"Data change frequency": "As needed",
+"Publishing frequency": "Daily"
+}
+},
+"rowIdentifier": "0",
+"rowLabel": "a permitted parklet location",
+"availableDisplayTypes": [
+"table",
+"fatrow",
+"page"
+],
+"renderTypeConfig": {
+"visible": {
+"table": true
+}
+}
+},
+"owner": {
+"id": "rcpp-nrjq",
+"displayName": "Public Works",
+"profileImageUrlLarge": "/api/users/rcpp-nrjq/profile_images/LARGE",
+"profileImageUrlMedium": "/api/users/rcpp-nrjq/profile_images/THUMB",
+"profileImageUrlSmall": "/api/users/rcpp-nrjq/profile_images/TINY",
+"roleName": "editor",
+"screenName": "Public Works",
+"rights": [
+"create_datasets",
+"view_domain",
+"short_session",
+"view_goals",
+"view_dashboards",
+"view_story",
+"view_unpublished_story"
+]
+},
+"query": {},
+"rights": [
+"read"
+],
+"tableAuthor": {
+"id": "rcpp-nrjq",
+"displayName": "Public Works",
+"profileImageUrlLarge": "/api/users/rcpp-nrjq/profile_images/LARGE",
+"profileImageUrlMedium": "/api/users/rcpp-nrjq/profile_images/THUMB",
+"profileImageUrlSmall": "/api/users/rcpp-nrjq/profile_images/TINY",
+"roleName": "editor",
+"screenName": "Public Works",
+"rights": [
+"create_datasets",
+"view_domain",
+"short_session",
+"view_goals",
+"view_dashboards",
+"view_story",
+"view_unpublished_story"
+]
+},
+"tags": [
+"parklet",
+"sidewalk",
+"permit",
+"right",
+"of",
+"way",
+"open",
+"space",
+"narrow",
+"parking"
+],
+"flags": [
+"default",
+"restorable",
+"restorePossibleForType"
+]
+}
+},
+"data": [
+[
+245,
+"9AE7AF3F-2E6E-486E-A353-356B576C40E7",
+245,
+1474384607,
+"403253",
+1474384607,
+"403253",
+null,
+"16PKT-0054",
+"262 DIVISADERO ST",
+"DIVISADERO ST",
+"HAIGHT ST",
+"PAGE ST",
+"94117",
+"Repose Coffee Bar and Gallery",
+"Parklet",
+"6/27/2016",
+"8/15/2017",
+"APPROVED",
+"6001873.01636",
+"2109185.67204",
+"37.771527449986",
+"-122.436906435278",
+"4799201",
+"16PKT-0054",
+"Parklet at Repose Coffee Bar and Gallery",
+"Roadway",
+"6/27/2016",
+"8/15/2017",
+"262 DIVISADERO ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"262 DIVISADERO ST, San Francisco, CA 94117",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.771527449986",
+"-122.436906435278",
+null,
+false
+]
+],
+[
+257,
+"64C5D865-FC9D-47E9-A320-37D5D510A9DE",
+257,
+1484756003,
+"403253",
+1484756003,
+"403253",
+null,
+"17PKT-0001",
+"423 COLUMBUS AVE",
+"COLUMBUS AVE",
+"VALLEJO ST",
+"GREEN ST \\ STOCKTON ST",
+"94133",
+"CAFFE' GRECO",
+"Parklet",
+"1/17/2017",
+"2/15/2018",
+"APPROVED",
+"6010289.04546",
+"2118999.33253",
+"37.7989481680788",
+"-122.408487162809",
+"4294000",
+"17PKT-0001",
+"Parklet at CAFFE' GRECO",
+"Roadway",
+"1/17/2017",
+"2/15/2018",
+"423 COLUMBUS AVE",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"423 COLUMBUS AVE, San Francisco, CA 94133",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7989481680788",
+"-122.408487162809",
+null,
+false
+]
+],
+[
+258,
+"AE36BAEE-5F7C-4084-9ADB-9C1EFF142A37",
+258,
+1484928957,
+"403253",
+1484928957,
+"403253",
+null,
+"17PKT-0002",
+"3434 BALBOA ST",
+"BALBOA ST",
+"35TH AVE",
+"36TH AVE",
+"94121",
+"SIMPLE PLEASURES CAFÉ",
+"Parklet",
+"1/19/2017",
+"2/15/2018",
+"APPROVED",
+"5984886.07308",
+"2111149.1633",
+"37.7759385201735",
+"-122.49580918509",
+"2680000",
+"17PKT-0002",
+"Parklet at SIMPLE PLEASURES CAFÉ",
+"Roadway",
+"1/19/2017",
+"2/15/2018",
+"3434 BALBOA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3434 BALBOA ST, San Francisco, CA 94121",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7759385201735",
+"-122.49580918509",
+null,
+false
+]
+],
+[
+259,
+"AFFD4267-4CCB-4758-8FB2-49723C86505C",
+259,
+1485015148,
+"403253",
+1485015148,
+"403253",
+null,
+"17PKT-0004",
+"2001 POLK ST",
+"PACIFIC AVE",
+"POLK ST",
+"VAN NESS AVE",
+"94109",
+"Cheese Plus",
+"Parklet",
+"1/20/2017",
+"2/15/2018",
+"APPROVED",
+"6006425.0696",
+"2117735.31996",
+"37.7952603590802",
+"-122.421767991747",
+"10147000",
+"17PKT-0004",
+"Parklet at Cheese Plus",
+"Roadway",
+"1/20/2017",
+"2/15/2018",
+"2001 POLK ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"2001 POLK ST, San Francisco, CA 94109",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7952603590802",
+"-122.421767991747",
+null,
+false
+]
+],
+[
+260,
+"FC25392E-99F0-44D5-B9BD-BF8F51158829",
+260,
+1485015148,
+"403253",
+1485015148,
+"403253",
+null,
+"17PKT-0005",
+"2410 CALIFORNIA ST",
+"CALIFORNIA ST",
+"FILLMORE ST",
+"STEINER ST",
+"94115",
+"Pizzeria Due, LLC dba: Delfina",
+"Parklet",
+"1/20/2017",
+"2/15/2018",
+"APPROVED",
+"6002732.53958",
+"2115520.04684",
+"37.7889688677795",
+"-122.434386260392",
+"3558000",
+"17PKT-0005",
+"Parklet at Pizzeria Due, LLC dba: Delfina",
+"Roadway",
+"1/20/2017",
+"2/15/2018",
+"2410 CALIFORNIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"2410 CALIFORNIA ST, San Francisco, CA 94115",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7889688677795",
+"-122.434386260392",
+null,
+false
+]
+],
+[
+261,
+"7A344E13-6756-4B44-8326-30805ED9208A",
+261,
+1485274397,
+"403253",
+1485274397,
+"403253",
+null,
+"17PKT-0007",
+"436 BALBOA ST",
+"BALBOA ST",
+"05TH AVE",
+"06TH AVE",
+"94118",
+"CINDERELLA BAKERY INC.",
+"Parklet",
+"1/23/2017",
+"2/15/2018",
+"APPROVED",
+"5994172.80673",
+"2111474.38044",
+"37.7773709746424",
+"-122.463707816523",
+"2649000",
+"17PKT-0007",
+"Parklet at CINDERELLA BAKERY INC.",
+"Roadway",
+"1/23/2017",
+"2/15/2018",
+"436 BALBOA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"436 BALBOA ST, San Francisco, CA 94118",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7773709746424",
+"-122.463707816523",
+null,
+false
+]
+],
+[
+262,
+"C5233A84-7CE3-429C-AA5D-AB5D3A49F85B",
+262,
+1485274397,
+"403253",
+1485274397,
+"403253",
+null,
+"17PKT-0006",
+"988 VALENCIA ST",
+"VALENCIA ST",
+"LIBERTY ST",
+"21ST ST",
+"94110",
+"Blue Fig Cafe",
+"Parklet",
+"1/23/2017",
+"2/15/2018",
+"APPROVED",
+"6006263.20225",
+"2103863.99585",
+"37.7571639251618",
+"-122.421342540038",
+"13068000",
+"17PKT-0006",
+"Parklet at Blue Fig Cafe",
+"Roadway",
+"1/23/2017",
+"2/15/2018",
+"988 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"988 VALENCIA ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7571639251618",
+"-122.421342540038",
+null,
+false
+]
+],
+[
+263,
+"EB0D68BB-1398-48E3-B395-8016C6CB7115",
+263,
+1485447222,
+"403253",
+1485447222,
+"403253",
+null,
+"17PKT-0008",
+"533 JONES ST",
+"JONES ST",
+"OFARRELL ST",
+"GEARY ST",
+"94102",
+"Usama Shahbaz and Ali Amin dba Karachi Chicken",
+"Parklet",
+"1/25/2017",
+"2/15/2018",
+"APPROVED",
+"6008819.27478",
+"2114416.55889",
+"37.786282572627",
+"-122.413248829754",
+"7570000",
+"17PKT-0008",
+"Parklet at Usama Shahbaz and Ali Amin dba Karachi Chicken",
+"Roadway",
+"1/25/2017",
+"2/15/2018",
+"533 JONES ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"533 JONES ST, San Francisco, CA 94102",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.786282572627",
+"-122.413248829754",
+null,
+false
+]
+],
+[
+264,
+"5879CFD2-54C5-46B7-AF69-F26AA2E792E4",
+264,
+1485620064,
+"403253",
+1485620064,
+"403253",
+null,
+"17PKT-0009",
+"1722 TARAVAL ST",
+"TARAVAL ST",
+"27TH AVE",
+"28TH AVE",
+"94116",
+"Rolling Out, Inc.",
+"Parklet",
+"1/27/2017",
+"2/15/2018",
+"APPROVED",
+"5987845.00645",
+"2099020.24484",
+"37.7428086566312",
+"-122.484683675488",
+"12403000",
+"17PKT-0009",
+"Parklet at Rolling Out, Inc.",
+"Roadway",
+"1/27/2017",
+"2/15/2018",
+"1722 TARAVAL ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1722 TARAVAL ST, San Francisco, CA 94116",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7428086566312",
+"-122.484683675488",
+null,
+false
+]
+],
+[
+265,
+"91CB9641-3BC4-4102-9E96-551C7787BE72",
+265,
+1485879360,
+"403253",
+1485879360,
+"403253",
+null,
+"17PKT-0012",
+"1331 09TH AVE",
+"09TH AVE",
+"IRVING ST",
+"JUDAH ST",
+"94122",
+"ARIZMENDI BAKERY - 9TH AVE",
+"Parklet",
+"1/30/2017",
+"2/15/2018",
+"APPROVED",
+"5993275.5631",
+"2106407.37117",
+"37.7634065728777",
+"-122.466443284387",
+"432000",
+"17PKT-0012",
+"Parklet at ARIZMENDI BAKERY - 9TH AVE",
+"Roadway",
+"1/30/2017",
+"2/15/2018",
+"1331 09TH AVE",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1331 09TH AVE, San Francisco, CA 94122",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7634065728777",
+"-122.466443284387",
+null,
+false
+]
+],
+[
+266,
+"BD5C3B02-3800-4DA8-B600-B2C1B32D0537",
+266,
+1485965849,
+"403253",
+1485965849,
+"403253",
+null,
+"17PKT-0013",
+"740 VALENCIA ST",
+"VALENCIA ST",
+"18TH ST",
+"19TH ST",
+"94110",
+"Dandelion Chocolate",
+"Parklet",
+"1/31/2017",
+"2/15/2018",
+"APPROVED",
+"6006197.25247",
+"2105252.74224",
+"37.7609733804633",
+"-122.421669254993",
+"13064000",
+"17PKT-0013",
+"Parklet at Dandelion Chocolate",
+"Roadway",
+"1/31/2017",
+"2/15/2018",
+"740 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"740 VALENCIA ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7609733804633",
+"-122.421669254993",
+null,
+false
+]
+],
+[
+267,
+"28D621F2-4CEE-4779-9B59-0C2A5C4944B1",
+267,
+1486052132,
+"403253",
+1486052132,
+"403253",
+null,
+"17PKT-0011",
+"3378 18TH ST",
+"18TH ST",
+"CAPP ST",
+"MISSION ST",
+"94110",
+"Ken Ken Ramen",
+"Parklet",
+"2/1/2017",
+"2/15/2018",
+"APPROVED",
+"6007020.90305",
+"2105598.37048",
+"37.7619688058469",
+"-122.418845114319",
+"877000",
+"17PKT-0011",
+"Parklet at Ken Ken Ramen",
+"Roadway",
+"2/1/2017",
+"2/15/2018",
+"3378 18TH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3378 18TH ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7619688058469",
+"-122.418845114319",
+null,
+false
+]
+],
+[
+268,
+"CE29CE47-0F3F-43E0-9425-B77092B3536B",
+268,
+1486052132,
+"403253",
+1486052132,
+"403253",
+null,
+"17PKT-0003",
+"1122 FOLSOM ST",
+"FOLSOM ST",
+"LANGTON ST",
+"HALLAM ST",
+"94103",
+"BRAINWASH, INC.",
+"Parklet",
+"2/1/2017",
+"2/15/2018",
+"APPROVED",
+"6010088.26699",
+"2110763.57439",
+"37.7763235020516",
+"-122.408600637216",
+"5674000",
+"17PKT-0003",
+"Parklet at BRAINWASH, INC.",
+"Roadway",
+"2/1/2017",
+"2/15/2018",
+"1122 FOLSOM ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1122 FOLSOM ST, San Francisco, CA 94103",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7763235020516",
+"-122.408600637216",
+null,
+false
+]
+],
+[
+269,
+"8F0EECE9-1C95-4610-97C5-74B3A73803FC",
+269,
+1486224882,
+"403253",
+1486224882,
+"403253",
+null,
+"17PKT-0015",
+"1268 VALENCIA ST",
+"VALENCIA ST",
+"23RD ST",
+"24TH ST",
+"94110",
+"ARIZMENDI BAKERY",
+"Parklet",
+"2/3/2017",
+"2/15/2018",
+"APPROVED",
+"6006396.56309",
+"2102202.31822",
+"37.7526088597395",
+"-122.420763362027",
+"13072000",
+"17PKT-0015",
+"Parklet at ARIZMENDI BAKERY",
+"Roadway",
+"2/3/2017",
+"2/15/2018",
+"1268 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1268 VALENCIA ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7526088597395",
+"-122.420763362027",
+null,
+false
+]
+],
+[
+270,
+"5D04B00B-AE86-4141-8148-BD21676A353D",
+270,
+1486224882,
+"403253",
+1486224882,
+"403253",
+null,
+"17PKT-0014",
+"2569 03RD ST",
+"03RD ST",
+"22ND ST",
+"23RD ST",
+"94107",
+"Museum of Craft and Design",
+"Parklet",
+"2/3/2017",
+"2/15/2018",
+"APPROVED",
+"6015917.56082",
+"2103540.94455",
+"37.7568164762378",
+"-122.387931202139",
+"191101",
+"17PKT-0014",
+"Parklet at Museum of Craft and Design",
+"Roadway",
+"2/3/2017",
+"2/15/2018",
+"2569 03RD ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"2569 03RD ST, San Francisco, CA 94107",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7568164762378",
+"-122.387931202139",
+null,
+false
+]
+],
+[
+271,
+"6C5868B9-5D39-4688-B029-9EDABD611868",
+271,
+1486570605,
+"403253",
+1486570605,
+"403253",
+null,
+"17PKT-0010",
+"354 11TH ST",
+"11TH ST",
+"FOLSOM ST",
+"HARRISON ST",
+"94103",
+"Butter",
+"Parklet",
+"2/7/2017",
+"2/15/2018",
+"APPROVED",
+"6008699.29405",
+"2108876.21892",
+"37.7710633795325",
+"-122.413272000154",
+"515000",
+"17PKT-0010",
+"Parklet at Butter",
+"Roadway",
+"2/7/2017",
+"2/15/2018",
+"354 11TH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"354 11TH ST, San Francisco, CA 94103",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7710633795325",
+"-122.413272000154",
+null,
+false
+]
+],
+[
+272,
+"2D9FDD7E-87E1-4707-950E-C35D870AA2AB",
+272,
+1486656945,
+"403253",
+1486656945,
+"403253",
+null,
+"17PKT-0020",
+"1241 VALENCIA ST",
+"VALENCIA ST",
+"23RD ST",
+"24TH ST",
+"94110",
+"Exploratorium",
+"Parklet",
+"2/8/2017",
+"2/15/2018",
+"APPROVED",
+"6006457.61481",
+"2102334.1198",
+"37.7529741974744",
+"-122.42056158933",
+"13072000",
+"17PKT-0020",
+"Parklet at Exploratorium",
+"Roadway",
+"2/8/2017",
+"2/15/2018",
+"1241 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1241 VALENCIA ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7529741974744",
+"-122.42056158933",
+null,
+false
+]
+],
+[
+273,
+"80B3E70D-D334-4020-9484-1BE0CE6A4CB9",
+273,
+1486656945,
+"403253",
+1486656945,
+"403253",
+null,
+"17PKT-0021",
+"360 RITCH ST",
+"RITCH ST",
+"BRANNAN ST",
+"TOWNSEND ST",
+"94107",
+"Little Skillet",
+"Parklet",
+"2/8/2017",
+"2/15/2018",
+"APPROVED",
+"6014329.26023",
+"2111607.80218",
+"37.778878168157",
+"-122.393988863559",
+"11040000",
+"17PKT-0021",
+"Parklet at Little Skillet",
+"Roadway",
+"2/8/2017",
+"2/15/2018",
+"360 RITCH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"360 RITCH ST, San Francisco, CA 94107",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.778878168157",
+"-122.393988863559",
+null,
+false
+]
+],
+[
+274,
+"BBC2E819-9047-466F-AF58-0C221049B1B4",
+274,
+1486656945,
+"403253",
+1486656945,
+"403253",
+null,
+"17PKT-0018",
+"3982 24TH ST",
+"24TH ST",
+"SANCHEZ ST",
+"NOE ST",
+"94114",
+"Noe Valley Association",
+"Parklet",
+"2/8/2017",
+"2/15/2018",
+"APPROVED",
+"6003292.46202",
+"2101863.37402",
+"37.7515027542727",
+"-122.431473682572",
+"1361000",
+"17PKT-0018",
+"Parklet at Noe Valley Association",
+"Roadway",
+"2/8/2017",
+"2/15/2018",
+"3982 24TH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3982 24TH ST, San Francisco, CA 94114",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7515027542727",
+"-122.431473682572",
+null,
+false
+]
+],
+[
+275,
+"3EC56889-3489-473D-A81E-C9F5709115DE",
+275,
+1486743392,
+"403253",
+1486743392,
+"403253",
+null,
+"17PKT-0025",
+"2821 CALIFORNIA ST",
+"CALIFORNIA ST",
+"DIVISADERO ST",
+"BRODERICK ST",
+"94115",
+"b Patisserie",
+"Parklet",
+"2/9/2017",
+"2/15/2018",
+"APPROVED",
+"6000887.08497",
+"2115161.26519",
+"37.7878788215242",
+"-122.440745524815",
+"3562000",
+"17PKT-0025",
+"Parklet at b Patisserie",
+"Roadway",
+"2/9/2017",
+"2/15/2018",
+"2821 CALIFORNIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"2821 CALIFORNIA ST, San Francisco, CA 94115",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7878788215242",
+"-122.440745524815",
+null,
+false
+]
+],
+[
+276,
+"31703211-A267-4264-BCB6-1DB5840AD5FA",
+276,
+1486743392,
+"403253",
+1486743392,
+"403253",
+null,
+"17PKT-0024",
+"1530 HAIGHT ST",
+"HAIGHT ST",
+"ASHBURY ST",
+"CLAYTON ST",
+"94117",
+"HAIGHT STREET MARKET",
+"Parklet",
+"2/9/2017",
+"2/15/2018",
+"APPROVED",
+"5998785.9415",
+"2108707.47877",
+"37.77003851165",
+"-122.447550324237",
+"6619000",
+"17PKT-0024",
+"Parklet at HAIGHT STREET MARKET",
+"Roadway",
+"2/9/2017",
+"2/15/2018",
+"1530 HAIGHT ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1530 HAIGHT ST, San Francisco, CA 94117",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.77003851165",
+"-122.447550324237",
+null,
+false
+]
+],
+[
+277,
+"701611D3-FEA4-499A-BEDC-CAE109D4146B",
+277,
+1486829694,
+"403253",
+1486829694,
+"403253",
+null,
+"17PKT-0023",
+"384 HAYES ST",
+"HAYES ST",
+"FRANKLIN ST",
+"GOUGH ST",
+"94102",
+"Arlequin Cafe",
+"Parklet",
+"2/10/2017",
+"2/16/2018",
+"APPROVED",
+"6006018.07074",
+"2111158.50667",
+"37.7771790954812",
+"-122.422708668599",
+"6815000",
+"17PKT-0023",
+"Parklet at Arlequin Cafe",
+"Roadway",
+"2/10/2017",
+"2/16/2018",
+"384 HAYES ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"384 HAYES ST, San Francisco, CA 94102",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7771790954812",
+"-122.422708668599",
+null,
+false
+]
+],
+[
+279,
+"1CCF8923-24A4-4E2D-9B8E-D21812BA8F9D",
+279,
+1487175319,
+"403253",
+1487175319,
+"403253",
+null,
+"17PKT-0027",
+"732 22ND ST",
+"22ND ST",
+"03RD ST",
+"TENNESSEE ST",
+"94107",
+"Just for You Cafe, Inc.",
+"Parklet",
+"2/14/2017",
+"2/15/2018",
+"APPROVED",
+"6015655.22446",
+"2103981.30809",
+"37.7580110840154",
+"-122.388869208794",
+"1159000",
+"17PKT-0027",
+"Parklet at Just for You Cafe, Inc.",
+"Roadway",
+"2/14/2017",
+"2/15/2018",
+"732 22ND ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"732 22ND ST, San Francisco, CA 94107",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7580110840154",
+"-122.388869208794",
+null,
+false
+]
+],
+[
+280,
+"4010143B-5688-459B-847B-3A58E48A247F",
+280,
+1487348147,
+"403253",
+1487348147,
+"403253",
+null,
+"17PKT-0029",
+"3600 16TH ST",
+"16TH ST",
+"MARKET ST \\ NOE ST",
+"CASTRO ST",
+"94114",
+"SQUAT & GOBBLE CAFÉ - 3600 16th St",
+"Parklet",
+"2/16/2017",
+"2/15/2018",
+"APPROVED",
+"6002830.97081",
+"2106566.95155",
+"37.7643914840836",
+"-122.43340565699",
+"746000",
+"17PKT-0029",
+"Parklet at SQUAT & GOBBLE CAFÉ - 3600 16th St",
+"Roadway",
+"2/16/2017",
+"2/15/2018",
+"3600 16TH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3600 16TH ST, San Francisco, CA 94114",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7643914840836",
+"-122.43340565699",
+null,
+false
+]
+],
+[
+281,
+"E19906DD-635A-46F4-803D-91B1CB63639A",
+281,
+1487434461,
+"403253",
+1487434461,
+"403253",
+null,
+"17PKT-0026",
+"3318 22ND ST",
+"22ND ST",
+"SAN JOSE AVE",
+"GUERRERO ST",
+"94110",
+"Luna Rienne Gallery",
+"Parklet",
+"2/17/2017",
+"2/15/2018",
+"APPROVED",
+"6006198.34138",
+"2103223.71185",
+"37.755402196677",
+"-122.421521382065",
+"1194000",
+"17PKT-0026",
+"Parklet at Luna Rienne Gallery",
+"Roadway",
+"2/17/2017",
+"2/15/2018",
+"3318 22ND ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3318 22ND ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.755402196677",
+"-122.421521382065",
+null,
+false
+]
+],
+[
+282,
+"CBED4F6D-DCD4-45C6-BD11-906653249494",
+282,
+1487434461,
+"403253",
+1487434461,
+"403253",
+null,
+"17PKT-0031",
+"1192 GUERRERO ST",
+"GUERRERO ST",
+"ELIZABETH ST",
+"24TH ST",
+"94110",
+"Jumpstart Coffee",
+"Parklet",
+"2/17/2017",
+"2/15/2018",
+"APPROVED",
+"6005731.97526",
+"2102037.0963",
+"37.7521177180627",
+"-122.423049882767",
+"6585102",
+"17PKT-0031",
+"Parklet at Jumpstart Coffee",
+"Roadway",
+"2/17/2017",
+"2/15/2018",
+"1192 GUERRERO ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1192 GUERRERO ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7521177180627",
+"-122.423049882767",
+null,
+false
+]
+],
+[
+283,
+"B9FA3427-7560-47D1-B8EF-D2572247990C",
+283,
+1488039215,
+"403253",
+1488039215,
+"403253",
+null,
+"17PKT-0035",
+"736 DIVISADERO ST",
+"DIVISADERO ST",
+"GROVE ST",
+"FULTON ST",
+"94117",
+"Four Barrel Coffee LLC",
+"Parklet",
+"2/24/2017",
+"2/15/2018",
+"APPROVED",
+"6001618.22685",
+"2110985.5372",
+"37.7764549448782",
+"-122.437916704181",
+"4804101",
+"17PKT-0035",
+"Parklet at Four Barrel Coffee LLC",
+"Roadway",
+"2/24/2017",
+"2/15/2018",
+"736 DIVISADERO ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"736 DIVISADERO ST, San Francisco, CA 94117",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7764549448782",
+"-122.437916704181",
+null,
+false
+]
+],
+[
+284,
+"21719660-ADBE-40D8-815E-54F9247C2F72",
+284,
+1488039215,
+"403253",
+1488039215,
+"403253",
+null,
+"17PKT-0036",
+"375 VALENCIA ST",
+"VALENCIA ST",
+"ROSA PARKS LN",
+"15TH ST",
+"94103",
+"Four Barrel Coffee LLC",
+"Parklet",
+"2/24/2017",
+"2/15/2018",
+"APPROVED",
+"6006137.02916",
+"2107433.95605",
+"37.7669590833028",
+"-122.422032497941",
+"13057002",
+"17PKT-0036",
+"Parklet at Four Barrel Coffee LLC",
+"Roadway",
+"2/24/2017",
+"2/15/2018",
+"375 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"375 VALENCIA ST, San Francisco, CA 94103",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7669590833028",
+"-122.422032497941",
+null,
+false
+]
+],
+[
+285,
+"73D39F51-CD73-479A-A00C-B5DA5A3A7752",
+285,
+1488039215,
+"403253",
+1488039215,
+"403253",
+null,
+"17PKT-0033",
+"4033 JUDAH ST",
+"JUDAH ST",
+"45TH AVE",
+"46TH AVE",
+"94122",
+"Trouble Coffee",
+"Parklet",
+"2/24/2017",
+"2/15/2018",
+"APPROVED",
+"5982047.18955",
+"2105556.01624",
+"37.7604146889203",
+"-122.505214830494",
+"7682000",
+"17PKT-0033",
+"Parklet at Trouble Coffee",
+"Roadway",
+"2/24/2017",
+"2/15/2018",
+"4033 JUDAH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"4033 JUDAH ST, San Francisco, CA 94122",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7604146889203",
+"-122.505214830494",
+null,
+false
+]
+],
+[
+286,
+"72735B8B-3479-4019-9E43-DC3C9C8C6DBC",
+286,
+1488039215,
+"403253",
+1488039215,
+"403253",
+null,
+"17PKT-0034",
+"1730 YOSEMITE AVE",
+"YOSEMITE AVE",
+"LANE ST",
+"MENDELL ST",
+"94124",
+"Trouble Coffee",
+"Parklet",
+"2/24/2017",
+"2/15/2018",
+"APPROVED",
+"6013934.21009",
+"2093217.1354",
+"37.7283593801849",
+"-122.394067706296",
+"13784000",
+"17PKT-0034",
+"Parklet at Trouble Coffee",
+"Roadway",
+"2/24/2017",
+"2/15/2018",
+"1730 YOSEMITE AVE",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1730 YOSEMITE AVE, San Francisco, CA 94124",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7283593801849",
+"-122.394067706296",
+null,
+false
+]
+],
+[
+287,
+"8F2E2E0F-B07F-405C-A875-DFB54D1FD0C9",
+287,
+1488039215,
+"403253",
+1488039215,
+"403253",
+null,
+"17PKT-0019",
+"904 VALENCIA ST",
+"VALENCIA ST",
+"20TH ST",
+"LIBERTY ST",
+"94110",
+"Smitten Ice Cream",
+"Parklet",
+"2/24/2017",
+"2/15/2018",
+"APPROVED",
+"6006275.46925",
+"2104316.79436",
+"37.758407896245",
+"-122.421332270027",
+"13067000",
+"17PKT-0019",
+"Parklet at Smitten Ice Cream",
+"Roadway",
+"2/24/2017",
+"2/15/2018",
+"904 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"904 VALENCIA ST, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.758407896245",
+"-122.421332270027",
+null,
+false
+]
+],
+[
+288,
+"2B46F97D-4624-403A-9CDA-81B910DC4AB3",
+288,
+1488298583,
+"403253",
+1488298583,
+"403253",
+null,
+"17PKT-0037",
+"1315 18TH ST",
+"18TH ST",
+"TEXAS ST",
+"MISSOURI ST",
+"94107",
+"FARLEY'S",
+"Parklet",
+"2/28/2017",
+"2/15/2018",
+"APPROVED",
+"6013635.93969",
+"2105654.09347",
+"37.7624920577396",
+"-122.395970025754",
+"855000",
+"17PKT-0037",
+"Parklet at FARLEY'S",
+"Roadway",
+"2/28/2017",
+"2/15/2018",
+"1315 18TH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1315 18TH ST, San Francisco, CA 94107",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7624920577396",
+"-122.395970025754",
+null,
+false
+]
+],
+[
+289,
+"061E5433-D611-460A-9AC6-020472CFFC92",
+289,
+1488384950,
+"403253",
+1488384950,
+"403253",
+null,
+"17PKT-0039",
+"200 CLEMENT ST",
+"CLEMENT ST",
+"03RD AVE",
+"04TH AVE",
+"94118",
+"Cumaica Coffee Co.",
+"Parklet",
+"2/28/2017",
+"2/15/2018",
+"APPROVED",
+"5994888.36164",
+"2113597.41878",
+"37.7832414758767",
+"-122.461386441503",
+"4152000",
+"17PKT-0039",
+"Parklet at Cumaica Coffee Co.",
+"Roadway",
+"2/28/2017",
+"2/15/2018",
+"200 CLEMENT ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"200 CLEMENT ST, San Francisco, CA 94118",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7832414758767",
+"-122.461386441503",
+null,
+false
+]
+],
+[
+290,
+"B5D84FEB-6E84-4989-939E-017BD05DC959",
+290,
+1488557694,
+"403253",
+1488557694,
+"403253",
+null,
+"17PKT-0038",
+"212 RITCH ST",
+"RITCH ST",
+"BRYANT ST",
+"BRANNAN ST",
+"94107",
+"Darwin Cafe",
+"Parklet",
+"3/2/2017",
+"2/15/2018",
+"APPROVED",
+"6013723.33125",
+"2112239.60359",
+"37.7805792565267",
+"-122.396129317301",
+"11039000",
+"17PKT-0038",
+"Parklet at Darwin Cafe",
+"Roadway",
+"3/2/2017",
+"2/15/2018",
+"212 RITCH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"212 RITCH ST, San Francisco, CA 94107",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7805792565267",
+"-122.396129317301",
+null,
+false
+]
+],
+[
+291,
+"A3208234-0DBA-4E7F-AA50-C936C3B82274",
+291,
+1489248882,
+"403253",
+1489248882,
+"403253",
+null,
+"17PKT-0043",
+"3930 JUDAH ST",
+"JUDAH ST",
+"44TH AVE",
+"45TH AVE",
+"94122",
+"Other Avenues Food Store",
+"Parklet",
+"3/10/2017",
+"2/15/2018",
+"APPROVED",
+"5982303.2925",
+"2105635.81941",
+"37.7606488715908",
+"-122.504335015934",
+"7681000",
+"17PKT-0043",
+"Parklet at Other Avenues Food Store",
+"Roadway",
+"3/10/2017",
+"2/15/2018",
+"3930 JUDAH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3930 JUDAH ST, San Francisco, CA 94122",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7606488715908",
+"-122.504335015934",
+null,
+false
+]
+],
+[
+292,
+"66CAEC33-B6AB-4DA6-94FA-D12D7D427001",
+292,
+1489677305,
+"403253",
+1489677305,
+"403253",
+null,
+"17PKT-0046",
+"1755 POLK ST",
+"POLK ST",
+"CLAY ST",
+"WASHINGTON ST",
+"94109",
+"THE CREPE HOUSE",
+"Parklet",
+"3/15/2017",
+"2/15/2018",
+"APPROVED",
+"6006546.01391",
+"2116853.66884",
+"37.7928463851277",
+"-122.421286866029",
+"10572000",
+"17PKT-0046",
+"Parklet at THE CREPE HOUSE",
+"Roadway",
+"3/15/2017",
+"2/15/2018",
+"1755 POLK ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"1755 POLK ST, San Francisco, CA 94109",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7928463851277",
+"-122.421286866029",
+null,
+false
+]
+],
+[
+293,
+"59E606BD-BD35-4848-B3DB-9E91DE9BC33E",
+293,
+1489677305,
+"403253",
+1489677305,
+"403253",
+null,
+"17PKT-0045",
+"443 VALENCIA ST",
+"VALENCIA ST",
+"15TH ST",
+"SPARROW ST",
+"94103",
+"Venga Empanadas",
+"Parklet",
+"3/15/2017",
+"2/15/2018",
+"APPROVED",
+"6006197.45752",
+"2107029.53002",
+"37.7658520331589",
+"-122.421794755716",
+"13058000",
+"17PKT-0045",
+"Parklet at Venga Empanadas",
+"Roadway",
+"3/15/2017",
+"2/15/2018",
+"443 VALENCIA ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"443 VALENCIA ST, San Francisco, CA 94103",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7658520331589",
+"-122.421794755716",
+null,
+false
+]
+],
+[
+294,
+"0B2AD0D8-3989-478F-852E-1A66C57902F7",
+294,
+1489850057,
+"403253",
+1489850057,
+"403253",
+null,
+"17PKT-0048",
+"629 CORTLAND AVE",
+"CORTLAND AVE",
+"MOULTRIE ST",
+"ANDERSON ST",
+"94110",
+"VinnoRosso",
+"Parklet",
+"3/17/2017",
+"2/15/2018",
+"APPROVED",
+"6007849.3765",
+"2097245.31113",
+"37.7390798030793",
+"-122.415388369625",
+"4427000",
+"17PKT-0048",
+"Parklet at VinnoRosso",
+"Roadway",
+"3/17/2017",
+"2/15/2018",
+"629 CORTLAND AVE",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"629 CORTLAND AVE, San Francisco, CA 94110",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7390798030793",
+"-122.415388369625",
+null,
+false
+]
+],
+[
+295,
+"1B753662-2A6A-4FBE-8A37-51A100F45E18",
+295,
+1490109292,
+"403253",
+1490109292,
+"403253",
+null,
+"17PKT-0017",
+"3868 24TH ST",
+"24TH ST",
+"VICKSBURG ST",
+"SANCHEZ ST",
+"94114",
+"Noe Valley Association",
+"Parklet",
+"3/20/2017",
+"2/15/2018",
+"APPROVED",
+"6004019.95794",
+"2101921.88473",
+"37.7517046164503",
+"-122.428962083807",
+"1360000",
+"17PKT-0017",
+"Parklet at Noe Valley Association",
+"Roadway",
+"3/20/2017",
+"2/15/2018",
+"3868 24TH ST",
+"No Excavation",
+"Parking",
+"Sidewalks",
+"Maintenance",
+"Point",
+"3868 24TH ST, San Francisco, CA 94114",
+[
+"{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+"37.7517046164503",
+"-122.428962083807",
+null,
+false
+]
+]
+]
+}

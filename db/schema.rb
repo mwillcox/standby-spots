@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170322011448) do
+ActiveRecord::Schema.define(version: 20170322034449) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "spots", force: :cascade do |t|
     t.string   "name"
-    t.string   "type"
+    t.string   "park_type"
     t.string   "description"
     t.string   "address"
     t.string   "location"
