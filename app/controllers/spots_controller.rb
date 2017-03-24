@@ -5,7 +5,7 @@ class SpotsController < ApplicationController
     @hash = Gmaps4rails.build_markers(@spots) do |spot, marker|
       marker.lat spot.latitude
       marker.lng spot.longitude
-      marker.infowindow spot.name
+      marker.infowindow spot.info_window
     end
   end
 
