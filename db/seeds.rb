@@ -7,7 +7,6 @@ parklets_csv.each do |row|
   s.name = row['envista_project_name_full']
   s.park_type = 'Parklet'
   s.address = row['envista_intermediate_location_text']
-  s.location = row['Location']
   s.save
 end
 puts "There are now #{Spot.count} rows in the transactions table"
@@ -20,7 +19,6 @@ popos_csv.each do |row|
   s.park_type = 'Privately Owned Public Open Space'
   s.description = row['Descriptio']
   s.address = row['POPOS_ADDR']
-  s.location = row['the_geom']
   s.save
 end
 puts "There are now #{Spot.count} rows in the transactions table"
