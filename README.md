@@ -1,24 +1,9 @@
-# README
+# Standby Spots
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 5 app that grabs park, parklet, and POPOS (publicly owned open spaces) data from [SF Open Data portal](https://data.sfgov.org/).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Technologies used:
++ Geocoder
++ Gmaps 4 Rails
++ Postgresql
++ Heroku deployment
