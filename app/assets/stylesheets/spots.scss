@@ -4,7 +4,7 @@
 
 main{
   max-width: 1550px;
-  margin: 30px auto;
+  margin: 20px auto;
   font-family: 'Fira Sans Condensed', sans-serif;
 }
 
@@ -43,8 +43,44 @@ main{
 h1{
   text-align: center;
   font-family: 'Lobster', sans-serif;
+  font-size: 3em;
+  margin: 0px;
 }
 
 h2{
   font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+a{
+  color: orange;
+}
+
+a:hover{
+  color: black;
+}
+
+
+@media only screen and (max-width: 500px) {
+  h1{
+    font-size: 32px;
+  }
+
+  .map-section{
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  .list-section{
+    width: 100%;
+    padding: 20px 5px;
+    max-height: none;
+  }
+
+  #map-container {
+    height: 450px;
+  }
+
+  #map-canvas {
+    height: 445px;
+   }
 }
