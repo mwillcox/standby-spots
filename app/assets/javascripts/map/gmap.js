@@ -12,12 +12,7 @@ function initialize() {
       mapTypeId: google.maps.MapTypeId.NORMAL,
       center: new google.maps.LatLng(37.773972, -122.431297),
       zoom:12,
-      mapTypeControl: false,
-      streetViewControl: false,
-      panControl: false,
-      zoomControlOptions: {
-          position: google.maps.ControlPosition.LEFT_BOTTOM
-      }
+      gestureHandling: 'greedy'
       
   };
   map = new google.maps.Map(document.getElementById("map-canvas"),mapOptions);
