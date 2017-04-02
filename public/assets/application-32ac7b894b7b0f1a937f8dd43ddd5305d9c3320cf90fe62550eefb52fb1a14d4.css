@@ -1,0 +1,100 @@
+/* line 5, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+main {
+  max-width: 1550px;
+  margin: 20px auto;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* line 11, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 16, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.map-section {
+  width: 100%;
+  padding: 10px;
+}
+
+/* line 21, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.list-section {
+  padding: 25px;
+  max-height: 600px;
+  overflow: scroll;
+}
+
+/* line 27, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+#map-canvas {
+  height: 600px;
+  width: 100%;
+}
+
+/* line 32, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+h1 {
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  font-size: 3em;
+  margin: 0px;
+}
+
+/* line 39, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+h2 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* line 43, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+a {
+  color: orange;
+}
+
+/* line 47, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 53, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+  h1 {
+    font-size: 32px;
+  }
+
+  /* line 57, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+  .map-section {
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  /* line 62, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+  .list-section {
+    width: 100%;
+    padding: 10px 5px;
+    max-height: none;
+  }
+
+  /* line 68, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+  #map-container {
+    height: 450px;
+  }
+
+  /* line 72, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+  #map-canvas {
+    height: 445px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
