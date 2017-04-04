@@ -12,18 +12,32 @@ function initialize() {
       mapTypeId: google.maps.MapTypeId.NORMAL,
       center: new google.maps.LatLng(37.773972, -122.431297),
       zoom:12,
+      //Allows single and double finger drag
       gestureHandling: 'greedy'
-      
   };
   map = new google.maps.Map(document.getElementById("map-canvas"),mapOptions);
-
+  //Builds the content for the marker's info window
   var infoWindowContent=[];
   $.each(spots, function(index) { 
+    htmlString = '';
+    var name = spots[index]['name'];
+    var type = spots[index]['park_type'];
+    var descrip = spots[index]['description'];
+    var address = spots[index]['address'];
+    if (descrip == null)
+      htmlString = ['<div class="info_content" >' +
+    '<p><b>'+ name +'</b></p>'+
+    '<p><b>Type</b>: '+ type +'</p>' +
+    '<p><b>Address</b>: '+ address +'</p>' +       
+     '</div>'];
+    else
+      htmlString = ['<div class="info_content" >' +
+    '<p><b>'+ name +'</b></p>'+
+    '<p><b>Type</b>: '+ type +'</p>' +
+    '<p><b>Description</b>: '+ descrip +'</p>' +       
+     '</div>'];
     markers_array.push([spots[index]['name'], spots[index]['latitude'],spots[index]['longitude']]);
-    infoWindowContent.push(['<div class="info_content" >' +
-    '<h3>'+spots[index]['name']+'</h3>'+
-    '<p>'+spots[index]['description']+'</p>' +       
-     '</div>']);
+    infoWindowContent.push(htmlString);
   });   
 
   // Display multiple markers on a map
@@ -35,19 +49,16 @@ function initialize() {
       map: map,
       title: markers_array[i][0]
     });
-
     markers.push(marker);
+    //Removing this for now.
+    // google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+    //     return function () {
+    //         infowindow.setContent(markers_array[i][0]);
+    //         infowindow.open(map, marker);
+    //     }
+    // })(marker, i));
 
-    google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
-
-        return function () {
-            infowindow.setContent(markers_array[i][0]);
-            infowindow.open(map, marker);
-            //map.setZoom(9);
-            //map.setCenter(marker.getPosition());  
-        }
-    })(marker, i));
-
+    //Zooms in on click
     google.maps.event.addListener(marker, 'click', (function (marker, i) {
 
         return function () {
@@ -60,13 +71,13 @@ function initialize() {
   }
 };
 
+//Not used at the moment, might re-implement again
 function triggerClick(i) {
-  console.log('i: ' + i + " markers: " + markers[i]);
   google.maps.event.trigger(markers[i], "click");
 }
 
+//Adding google API script tag
 function loadScript() {
-  console.log("map loading ...");
   var script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp' +

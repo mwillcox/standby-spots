@@ -1,0 +1,84 @@
+/* line 4, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* line 8, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+header {
+  background-color: #699864;
+  padding: 20px;
+  font-family: 'Lobster Two', sans-serif;
+}
+
+/* line 14, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.logo-link {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 20, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.header-left {
+  float: right;
+  top: 35px;
+  right: 15px;
+  position: fixed;
+}
+
+/* line 27, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.fa {
+  color: white !important;
+  padding-right: 15px;
+}
+
+/* line 32, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.map-section {
+  width: 100%;
+}
+
+/* line 36, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+#map-canvas {
+  min-height: calc(100vh - 100px);
+}
+
+/* line 40, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.list-container {
+  text-align: center;
+}
+
+/* line 44, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+footer {
+  height: 35px;
+  width: 100%;
+  background-color: #699864;
+}
+
+/* line 50, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+.footer {
+  float: right;
+  position: fixed;
+  right: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 58, /Users/michellewillcox/Documents/sites/standby-spots/app/assets/stylesheets/spots.scss */
+  h1 {
+    font-size: 32px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

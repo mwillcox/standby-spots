@@ -1,20 +1,8 @@
 <%= javascript_tag do%>
  window.spots= <%=raw @spots.to_json %>;
-
 <%end%>
 <main>
-  <h1>Standby Spots</h1>
-  <div class="page-container">
-    <section class="map-section">
-        <div id="map-canvas"></div>
-    </section>
-    <section class=" list-section">
-      <h2>List of Standby Spots</h2>
-      <div id='list-container'>
-        <% @spots.each_with_index do |spot, index| %>
-          <p><a id="info" href="javascript:triggerClick(<%=index%>)"><%= spot.name %></a></p>
-        <% end %>
-      </div>
-    </section>
-  </div>
+  <section class="map-section">
+      <div id="map-canvas"></div>
+  </section>
 </main>

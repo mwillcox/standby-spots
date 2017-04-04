@@ -6,11 +6,23 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag 'application','https://fonts.googleapis.com/css?family=Lobster|Fira+Sans+Condensed:400&subset=latin', media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag 'application','https://fonts.googleapis.com/css?family=Lobster+Two|Unica+One|Fira+Sans+Condensed:400&subset=latin', media: 'all', 'data-turbolinks-track' => true %>
     <%= favicon_link_tag 'favicon.ico' %>
+    <script src="https://use.fontawesome.com/e075f06003.js"></script>
   </head>
   <body>
+    <header>
+      <a class="logo-link" href="/">Standby Spots</a>
+      <div class="header-left">
+        <a href="#"><i class="fa fa-list" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+      </div>
+    </header>
     <%= yield %>
   </body>
-  
+  <footer>
+    <div class="footer">
+      <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+    </div>
+  </footer>
 </html>
