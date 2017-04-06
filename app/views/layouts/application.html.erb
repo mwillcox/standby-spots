@@ -13,16 +13,52 @@
   <body>
     <header>
       <a class="logo-link" href="/">Standby Spots</a>
-      <div class="header-left">
-        <a href="#"><i class="fa fa-list" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-      </div>
     </header>
     <%= yield %>
-  </body>
-  <footer>
-    <div class="footer">
-      <a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+    <footer>
+      <div class="footer">
+        <a id="myBtn"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>What is Standby Spots?</h3>
+        <p>Standby Spots was created after Michelle Willcox was a courier in San Francisco and having trouble finding somewhere to hang out in the great outdoors while in between jobs. It is a Rails 5 application that has aggregated data from multiple sources on SF Open Data to allow you to view park, parklet, and privately owned public open space data all on one map.</p>
+        <p>Feedback/ questions? Shoot me an <a href="mailto:shellwillcox@gmail.com">email</a>.</p>
+        <p><a href="htttp://www.michellewillcox.com/">www.michellewillcox.com</a></p>
+      </div>
+
     </div>
-  </footer>
+  </body>
+  <script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+  </script>
 </html>
